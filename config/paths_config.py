@@ -15,6 +15,7 @@ PROCESSED_TRAIN_FILE_PATH = os.path.join(PROCESSED_DIR,"processed_train.csv")
 PROCESSED_TEST_FILE_PATH = os.path.join(PROCESSED_DIR,"processed_test.csv")
 
 
+MODEL_FILE_PATH = "artifacts/models/lgbm_model.pkl"
 
 
 
