@@ -1,7 +1,7 @@
 
 from scipy.stats import randint,uniform
 
-LIGHTGM_PARAMS={
+LIGHTGBM_PARAMS={
     'n_estimators':randint(100,500),
     'max_depth' : randint(5,50),
     'learning_rate': uniform(0.01,0.2),
